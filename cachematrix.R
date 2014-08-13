@@ -49,7 +49,7 @@ cacheSolve <- function(x, ...)
     ## return the inverse if its already in cache
     if(!is.null(mtrix))
     {
-        message("getting data from cached")
+        message("getting data from cached memory")
         return(mtrix)
     }
 
